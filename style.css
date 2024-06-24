@@ -89,6 +89,7 @@ a{
     width: 100%;
     height: 84px;
     margin-top: 50px;
+   
 }
 #as1{
     width: 150px;
@@ -184,16 +185,97 @@ input[ placeholder]{
 .section33{
  width: 100%;
  height: 200px;
- background-color: bisque;
+ background-color: rgb(249 231, 159);
  margin-bottom: 30px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
 }
 .text22offer{
     font-family: "inter",sans-serif; 
     margin-left: 230px;
     margin-top: 30px;
+    font-size: 20px;
+    padding-top: 40px;
 }
 .text22offerpara{
     font-family: "inter",sans-serif; 
     margin-left: 230px; 
+    margin-top: 5px;
+}
+.usecode{
+    height: 40px;
+    width: 135px;
+    background-color: rgb(249, 231, 159);
+    border: 1px dashed rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 24px;
+} 
+.use-s{
+    font-family: "inter",sans-serif; 
+    font-size: small;
+    margin-left: 240px;
+    margin-top: 36px;
+}
+.storeplayapp{
+    display: flex;
+}
+h3{
+    font-family: "inter",sans-serif; 
+    padding: 7px 39px 4px 13px;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+.app-store {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.play-store{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.section33qrcode{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: -160px;
+}
+#qrcode{
+    width: 130px;
+}
+h4{
+    font-size: small;
+    font-weight: 200;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.section33logo{
+    margin-left: 66%;
+    margin-top: -195px;
+}
+.breakerimg{
+    margin-left: 15%;
+}
+.section44{
+    /* display: flex;
+    flex-direction: column; */
+    border: 2px solid black;
+    margin-top: 30px;
+    width: 99vw;
+}
+.sec441{
+    font-family: "inter",sans-serif; 
+}
+h5{
+    font-family: "inter",sans-serif; 
+    color: rgb(66, 65, 65);
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.links3{
+    justify-content:center;
+}
+#g2{
+    font-family: "inter",sans-serif; 
+    color: rgb(48, 48, 48);
+     margin-left: 18%;
 }
