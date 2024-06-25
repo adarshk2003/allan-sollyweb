@@ -204,10 +204,11 @@ input[ placeholder]{
 .usecode{
     height: 40px;
     width: 135px;
-    background-color: rgb(249, 231, 159);
+    background-color: rgb(255, 227, 69);
     border: 1px dashed rgb(0, 0, 0);
     margin-left: 10px;
     margin-top: 24px;
+    border-radius: 5px;
 } 
 .use-s{
     font-family: "inter",sans-serif; 
@@ -256,26 +257,41 @@ h4{
     margin-left: 15%;
 }
 .section44{
-    /* display: flex;
-    flex-direction: column; */
     border: 2px solid black;
     margin-top: 30px;
     width: 99vw;
+    height: 300px;
 }
 .sec441{
     font-family: "inter",sans-serif; 
+    justify-content: center;
 }
 h5{
     font-family: "inter",sans-serif; 
     color: rgb(66, 65, 65);
     margin-left: 35%;
     margin-top: 20px;
+    justify-content: center;
 }
-.links3{
+.links3 {  
+    display: flex;
     justify-content:center;
-}
-#g2{
+    /* width: 100%; */
+    gap: 30px;
+    /* align-items: center; */
+    margin-top: 10px;
     font-family: "inter",sans-serif; 
     color: rgb(48, 48, 48);
-     margin-left: 18%;
+  
+}
+.links3 a{
+    color: black;
+    padding-bottom: 5px;
+}
+
+.links3 a:hover{
+    /* color: red; */
+    border-bottom: 1px solid magenta;
+    padding-bottom: 5px;
+    font-weight: 500;
 }
