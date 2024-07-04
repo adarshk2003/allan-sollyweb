@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&display=swap');
 
 
@@ -351,8 +350,31 @@ button{
     left: 590px;
     background-color: rgb(248, 248, 216);
     position: absolute;
-
+    
     height: 28vh;
     width: 47vw;
     border-radius: 10px;
+}
+
+.butons{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.butoningrid{
+    /* display: flex; */
+    justify-content: center;
+    display: grid;
+    grid-template-columns:repeat(2,340px);
+    grid-template-rows: repeat(2,100px);
+}
+.toptextss{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
